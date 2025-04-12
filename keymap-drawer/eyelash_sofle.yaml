@@ -90,8 +90,8 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - VOL DN
