@@ -78,7 +78,7 @@ layers:
   - F8
   - {t: '-', s: _}
   - ^
-  - YEN
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
