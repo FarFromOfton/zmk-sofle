@@ -49,7 +49,7 @@
         layer_1 {
             display-name = "Fn-Layer";
             bindings = <
-                &kp GRAVE    &kp F1      &kp F2      &kp F3      &kp F4      &kp F5       &mmv MOVE_UP     &kp F6      &kp F7      &kp F8      &kp MINUS   &kp CARET     &kp YEN
+                &kp GRAVE    &kp F1      &kp F2      &kp F3      &kp F4      &kp F5       &mmv MOVE_UP     &kp F6      &kp F7      &kp F8      &kp MINUS   &kp CARET     &kp BSLH
                 &trans       &mkp LCLK   &mkp MCLK   &mkp RCLK   &kp INS     &kp DEL      &mmv MOVE_DOWN   &kp PG_UP   &kp HOME    &kp UP      &kp END     &kp LBRC    &kp RBRC
                 &trans       &kp CAPS    &kp VOL_DN  &kp VOL_UP  &kp MUTE    &mkp MB4     &mmv MOVE_LEFT   &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBRC    &kp RBRC
                 &trans       &rgb_ug RGB_OFF &trans  &trans      &trans      &trans       &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &trans     &trans     &trans    &trans     &trans
