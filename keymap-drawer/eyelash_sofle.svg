@@ -439,7 +439,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em">Layer3</tspan><tspan x="0" dy="1.2em">-</tspan><tspan x="0" dy="1.2em">Numpad</tspan>
+<tspan x="0" dy="-0.6em">Num-</tspan><tspan x="0" dy="1.2em">Layer</tspan>
 </text>
 </g>
 <g transform="translate(84, 168)" class="key keypos-27">
@@ -623,7 +623,7 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em">Layer2</tspan><tspan x="0" dy="1.2em">-</tspan><tspan x="0" dy="1.2em">System</tspan>
+<tspan x="0" dy="-0.6em">Sys-</tspan><tspan x="0" dy="1.2em">Layer</tspan>
 </text>
 </g>
 <g transform="translate(728, 252)" class="key keypos-62">
@@ -983,13 +983,14 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-Layer2-System">
-<text x="0" y="28" class="label" id="Layer2-System">Layer2-System:</text>
+<g transform="translate(40, 776)" class="layer-Sys-Layer">
+<text x="0" y="28" class="label" id="Sys-Layer">Sys-Layer:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">~</text>
+<text x="0" y="-4" class="key tap">`</text>
+<text x="0" y="-24" class="key shifted">~</text>
 </g>
 <g transform="translate(84, 56)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1322,8 +1323,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1165)" class="layer-Layer3-Numpad">
-<text x="0" y="28" class="label" id="Layer3-Numpad">Layer3-Numpad:</text>
+<g transform="translate(40, 1165)" class="layer-Num-Layer">
+<text x="0" y="28" class="label" id="Num-Layer">Num-Layer:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
