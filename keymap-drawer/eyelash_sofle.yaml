@@ -96,7 +96,7 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - VOL DN
   - VOL UP
-  - MUTE
+  - $$mdi:volume-off$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
