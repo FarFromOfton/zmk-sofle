@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - '@'
+  - {t: '[', s: '{'}
   - Num-Layer
   - A
   - S
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - ':'
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - INT1
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -66,7 +66,7 @@ layers:
   - Sys-Layer
   - $$mdi:backspace-reverse-outline$$
   Fn-Layer:
-  - LANG ZENKAKUHANKAKU
+  - {t: '`', s: '~'}
   - F1
   - F2
   - F3
@@ -77,7 +77,7 @@ layers:
   - F7
   - F8
   - {t: '-', s: _}
-  - ^
+  - {t: '=', s: +}
   - INT YEN
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -90,8 +90,8 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -103,8 +103,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '{'
-  - '}'
+  - \
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - {t: '$$mdi:transfer$$', type: trans}
@@ -206,7 +206,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - {t: /, s: '?'}
+  - KP DIVIDE
   - ^
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -219,7 +219,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - '*'
+  - KP ASTERISK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -243,9 +243,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
-  - {t: ., s: '>'}
-  - {t: '=', s: +}
-  - +
+  - KP DOT
+  - KP EQUAL
+  - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
