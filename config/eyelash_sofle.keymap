@@ -39,11 +39,11 @@
         layer_0 {
             display-name = "Base-JIS-Eyelash";
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9   &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O    &kp P       &kp LEFT_BRACKET
-&mo 3       &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L    &kp SEMI    &kp SINGLE_QUOTE
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT  &kp SLASH   &kp INT1
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &kp MINUS  &mo 2    &kp DELETE
+&kp GRAVE   &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW    &kp N6     &kp N7     &kp N8     &kp N9   &kp N0      &kp BACKSPACE
+&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW  &kp Y      &kp U      &kp I      &kp O    &kp P       &kp LEFT_BRACKET
+&mo 3       &kp A      &kp S         &kp D         &kp F   &kp G        &kp LC(C)       &kp H      &kp J      &kp K      &kp L    &kp SEMI    &kp SINGLE_QUOTE
+&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp LC(V)       &kp N      &kp M      &kp COMMA  &kp DOT  &kp SLASH   &kp INT1
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER       &kp SPACE  &kp ENTER  &kp MINUS  &mo 2    &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -52,11 +52,11 @@
         layer_1 {
             display-name = "Fn-Layer";
             bindings = <
-&kp GRAVE  &kp F1           &kp F2     &kp F3     &kp F4      &kp F5      &mmv MOVE_UP     &kp F6           &kp F7    &kp F8    &kp MINUS  &kp EQUAL          &kp INT_YEN
-&trans     &mkp LCLK        &mkp MCLK  &mkp RCLK  &kp INS     &kp DEL     &mmv MOVE_DOWN   &kp PG_UP        &kp HOME  &kp UP    &kp END    &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans     &kp CAPS         &trans     &trans     &kp C_MUTE  &mkp MB4    &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH           &kp RIGHT_SHIFT
-&trans     &rgb_ug RGB_OFF  &trans     &trans     &trans      &trans      &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &trans    &trans    &trans     &trans             &trans
-&trans     &trans           &trans     &trans     &trans      &trans      &mkp LCLK        &trans           &trans    &trans    &trans     &trans
+&kp ESC  &kp F1           &kp F2     &kp F3     &kp F4      &kp F5      &mmv MOVE_UP     &kp F6     &kp F7    &kp F8    &kp MINUS  &kp EQUAL          &kp INT_YEN
+&trans   &mkp LCLK        &mkp MCLK  &mkp RCLK  &kp INS     &kp DEL     &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp RIGHT_BRACKET  &kp BACKSLASH
+&trans   &kp CAPS         &trans     &trans     &kp C_MUTE  &mkp MB4    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH           &kp RIGHT_SHIFT
+&trans   &rgb_ug RGB_OFF  &trans     &trans     &trans      &trans      &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans             &trans
+&trans   &trans           &trans     &trans     &trans      &trans      &mkp LCLK        &trans     &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
